@@ -2,126 +2,50 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AgroTech - Inovação no Campo</title>
-    
+    <title>AgroTech - Funcionando</title>
     <style>
-        /* RESET: Remove as bordas brancas e espaços padrão do navegador */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: 'Segoe UI', Arial, sans-serif;
-            background-color: #f4f7f4;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        header {
-            background-color: #2e7d32;
-            color: white;
-            text-align: center;
-            padding: 60px 20px;
-            width: 100%; /* Garante que ocupe toda a largura */
-        }
-
-        nav {
-            background-color: #1b5e20;
-            text-align: center;
-            padding: 15px 0;
-            width: 100%;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-
-        section {
-            padding: 50px 20px;
-            max-width: 1100px;
-            margin: 0 auto; /* Centraliza o conteúdo, mas mantém o fundo reto */
-        }
-
-        .layout-flex {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .img-agro {
-            width: 100%;
-            max-width: 450px;
-            border-radius: 10px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-        }
-
-        .listas-container {
-            flex: 1;
-            min-width: 300px;
-        }
-
-        ul, ol {
-            margin: 20px 0;
-            padding-left: 20px;
-        }
-
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-            width: 100%;
-        }
+        /* Remove as bordas brancas */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { font-family: sans-serif; background-color: #f0f0f0; }
+        
+        header { background: #2e7d32; color: white; text-align: center; padding: 30px; }
+        
+        nav { background: #333; color: white; text-align: center; padding: 10px; }
+        
+        .conteudo { padding: 20px; max-width: 800px; margin: auto; background: white; }
+        
+        img { width: 100%; border-radius: 10px; margin: 20px 0; }
+        
+        ul, ol { margin-left: 30px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>AGROTECH</h1>
-        <p>A tecnologia que impulsiona o agronegócio moderno.</p>
+        <h1>AgroTech</h1>
+        <p>Inovação no Campo</p>
     </header>
 
-    <nav>
-        <a href="#">HOME</a>
-        <a href="#">TECNOLOGIA</a>
-        <a href="#">SERVIÇOS</a>
-        <a href="#">CONTATO</a>
-    </nav>
+    <nav>Início | Serviços | Contato</nav>
 
-    <section>
-        <div class="layout-flex">
-            <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=1000&auto=format&fit=crop" alt="Plantação" class="img-agro">
-            
-            <div class="listas-container">
-                <h2>Benefícios da Inovação</h2>
-                <ul>
-                    <li>Monitoramento via Satélite</li>
-                    <li>Sustentabilidade e Reuso</li>
-                    <li>Otimização de Colheita</li>
-                    <li>Redução de Custos</li>
-                </ul>
+    <div class="conteudo">
+        <h2>Benefícios do Agronegócio</h2>
+        <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=1000&auto=format&fit=crop" alt="Plantação">
+        
+        <ul>
+            <li>Sustentabilidade no campo</li>
+            <li>Alta tecnologia de colheita</li>
+            <li>Exportação global</li>
+        </ul>
 
-                <h3>Como Implementar:</h3>
-                <ol type="A">
-                    <li>Análise de Solo Digital</li>
-                    <li>Instalação de Sensores IoT</li>
-                    <li>Treinamento da Equipe</li>
-                </ol>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2026 AgroTech - Inovação no Campo</p>
-    </footer>
+        <h3>Passo a passo:</h3>
+        <ol type="A">
+            <li>Escolha o plano</li>
+            <li>Preencha os dados</li>
+            <li>Receba o acesso</li>
+        </ol>
+    </div>
 
 </body>
 </html>
