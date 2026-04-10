@@ -1,1 +1,51 @@
-# trabalho-3
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>AgroTech - Funcionando</title>
+    <style>
+        /* Remove as bordas brancas */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        body { font-family: sans-serif; background-color: #f0f0f0; }
+        
+        header { background: #2e7d32; color: white; text-align: center; padding: 30px; }
+        
+        nav { background: #333; color: white; text-align: center; padding: 10px; }
+        
+        .conteudo { padding: 20px; max-width: 800px; margin: auto; background: white; }
+        
+        img { width: 100%; border-radius: 10px; margin: 20px 0; }
+        
+        ul, ol { margin-left: 30px; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AgroTech</h1>
+        <p>Inovação no Campo</p>
+    </header>
+
+    <nav>Início | Serviços | Contato</nav>
+
+    <div class="conteudo">
+        <h2>Benefícios do Agronegócio</h2>
+        <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?q=80&w=1000&auto=format&fit=crop" alt="Plantação">
+        
+        <ul>
+            <li>Sustentabilidade no campo</li>
+            <li>Alta tecnologia de colheita</li>
+            <li>Exportação global</li>
+        </ul>
+
+        <h3>Passo a passo:</h3>
+        <ol type="A">
+            <li>Escolha o plano</li>
+            <li>Preencha os dados</li>
+            <li>Receba o acesso</li>
+        </ol>
+    </div>
+
+</body>
+</html>
